@@ -1,12 +1,12 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-
 import css3 from '/src/assets/css3.svg'
 import html from '/src/assets/html.svg'
 import javascript from '/src/assets/javascript.svg'
 import react from '/src/assets/react.svg'
 
+
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 AOS.init({ duration: 1200 });
 
