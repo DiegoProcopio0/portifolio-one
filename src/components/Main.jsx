@@ -2,6 +2,10 @@ import { ContactUs } from "./ContactUs";
 import { MyProjects } from "./MyProjects";
 import { Technologies } from "./Technologies";
 
+import Github from '/src/assets/Github.svg'
+import linkedin from '/src/assets/linkedin.svg'
+
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -64,7 +68,7 @@ export function Main() {
                         className="hover:overflow-hidden hover:scale-125 transition-all"
                         target="_blank">
                         <img
-                            src="./src/assets/Github.svg"
+                            src={Github}
                             alt="logo github" />
                     </a>
                     <a
@@ -72,7 +76,7 @@ export function Main() {
                         className="hover:overflow-hidden hover:scale-125 transition-all"
                         target="_blank"   >
                         <img
-                            src="./src/assets/linkedin.svg"
+                            src={linkedin}
                             alt="logo linkedin" />
                     </a>
                     <a href="mailto:digprocopio98@gmail.com"
