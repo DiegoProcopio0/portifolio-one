@@ -4,6 +4,8 @@ import { Technologies } from "./Technologies";
 
 import Github from '/src/assets/Github.svg'
 import linkedin from '/src/assets/linkedin.svg'
+import Instagram from '/src/assets/Instagram.svg'
+import Mail from '/src/assets/Mail.svg'
 
 
 import AOS from 'aos';
@@ -83,7 +85,7 @@ export function Main() {
                         className="hover:overflow-hidden hover:scale-125 transition-all"
                         target="_blank"   >
                         <img
-                            src="./src/assets/Mail.svg"
+                            src={Mail}
                             alt=" logo email" />
                     </a>
                     <a
@@ -91,7 +93,7 @@ export function Main() {
                         className="hover:overflow-hidden hover:scale-125 transition-all"
                         target="_blank"   >
                         <img
-                            src="./src/assets/Instagram.svg"
+                            src={Instagram}
                             alt="logo instagram" />
                     </a>
                 </div>
