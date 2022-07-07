@@ -45,7 +45,7 @@ export function Main() {
                     </span>
                 </div>
                 <img 
-                    src="/src/assets/hand-coding.png" 
+                    src="https://i.ibb.co/f8cFQrF/hand-coding.png" 
                     className="w-48 my-5 sm:w-40" 
                     alt="hand-coding" 
                     data-aos="fade-left"
