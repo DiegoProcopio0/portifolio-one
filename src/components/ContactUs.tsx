@@ -1,3 +1,5 @@
+import whatsapp from '/src/assets/whatsapp.svg'
+
 export function ContactUs() {
     return (
         <div className="max-w-xs text-center"
@@ -13,7 +15,7 @@ export function ContactUs() {
                     target="_blank"
                     className="flex items-center justify-center gap-3 bg-blue-700 rounded p-4 lg:w-96"
                 >
-                    <img src="/src/assets/whatsapp.svg" alt="Logo do Whatsapp" />
+                    <img src={whatsapp} alt="Logo do Whatsapp" />
                     <span>
                         (19) 971240888
                     </span>
