@@ -2,10 +2,10 @@ import { ContactUs } from "./ContactUs";
 import { MyProjects } from "./MyProjects";
 import { Technologies } from "./Technologies";
 
-import Github from './src/assets/github.svg'
-import Linkedin from './src/assets/linkedin.svg'
-import Instagram from './src/assets/instagram.svg'
-import Mail from './src/assets/mail.svg'
+import Github from '/src/assets/github.svg'
+import Linkedin from '/src/assets/linkedin.svg'
+import Instagram from '/src/assets/instagram.svg'
+import Mail from '/src/assets/mail.svg'
 
 
 import AOS from 'aos';
