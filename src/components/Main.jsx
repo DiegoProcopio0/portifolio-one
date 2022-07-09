@@ -1,10 +1,10 @@
+import { GithubLogo, LinkedinLogo, EnvelopeSimple  } from "phosphor-react";
+
+
 import { ContactUs } from "./ContactUs";
 import { MyProjects } from "./MyProjects";
 import { Technologies } from "./Technologies";
 
-import Github from '/src/assets/github.svg';
-import Linkedin from '/src/assets/linkedin.svg';
-import Mail from '/src/assets/mail.svg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -67,24 +67,18 @@ export function Main() {
                         href="https://github.com/DiegoProcopio0/"
                         className="hover:overflow-hidden hover:scale-125 transition-all"
                         target="_blank">
-                        <img
-                            src={Github}
-                            alt="logo github" />
+                        <GithubLogo size={50} color="#1ED760" />
                     </a>
                     <a
                         href="https://www.linkedin.com/in/diego-proc%C3%B3pio-32a6b0206/"
                         className="hover:overflow-hidden hover:scale-125 transition-all"
                         target="_blank"   >
-                        <img
-                            src={Linkedin}
-                            alt="logo linkedin" />
+                        <LinkedinLogo size={52} color="#1ED760" />
                     </a>
                     <a href="mailto:digprocopio98@gmail.com"
                         className="hover:overflow-hidden hover:scale-125 transition-all"
                         target="_blank"   >
-                        <img
-                            src={Mail}
-                            alt=" logo email" />
+                        <EnvelopeSimple size={60} color="#1ED760" />
                     </a>
                 </div>
             </div>
