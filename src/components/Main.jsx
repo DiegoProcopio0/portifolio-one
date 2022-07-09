@@ -87,14 +87,6 @@ export function Main() {
                             src={Mail}
                             alt=" logo email" />
                     </a>
-                    {/* <a
-                        href="https://www.instagram.com/diegoxyz__/"
-                        className="hover:overflow-hidden hover:scale-125 transition-all"
-                        target="_blank"   >
-                        <img
-                            src={Instagram}
-                            alt="logo instagram" />
-                    </a> */}
                 </div>
             </div>
             <Technologies />
