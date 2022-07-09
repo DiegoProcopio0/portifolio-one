@@ -4,7 +4,6 @@ import { Technologies } from "./Technologies";
 
 import Github from '/src/assets/github.svg'
 import Linkedin from '/src/assets/linkedin.svg'
-import Instagram from '/src/assets/instagram.svg'
 import Mail from '/src/assets/mail.svg'
 
 
@@ -88,14 +87,14 @@ export function Main() {
                             src={Mail}
                             alt=" logo email" />
                     </a>
-                    <a
+                    {/* <a
                         href="https://www.instagram.com/diegoxyz__/"
                         className="hover:overflow-hidden hover:scale-125 transition-all"
                         target="_blank"   >
                         <img
                             src={Instagram}
                             alt="logo instagram" />
-                    </a>
+                    </a> */}
                 </div>
             </div>
             <Technologies />
