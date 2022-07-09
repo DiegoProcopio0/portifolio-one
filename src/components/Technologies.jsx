@@ -1,7 +1,7 @@
-import Css3 from '/src/assets/css3.svg'
-import Html from '/src/assets/html.svg'
-import Javascript from '/src/assets/javascript.svg'
-import React from '/src/assets/react.svg'
+import Css from './Css'
+import Html from './Html'
+import Javascript from './Javascript'
+import React from './ReactLogo'
 
 
 import AOS from 'aos';
@@ -24,33 +24,25 @@ export function Technologies() {
                     href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" 
                     className="hover:overflow-hidden hover:scale-125 transition-all" 
                     target="_blank">
-                    <img 
-                        src={Css3}
-                        alt="logo do Css" />
+                    <Css />
                 </a>
                 <a 
                     href="https://developer.mozilla.org/pt-BR/docs/Web/html" 
                     className="hover:overflow-hidden hover:scale-125 transition-all" 
                     target="_blank"   >
-                    <img 
-                        src={Html}
-                        alt="logo do html" />
+                    <Html />
                 </a>
                 <a 
                     href="https://developer.mozilla.org/pt-BR/docs/Web/javascript" 
                     className="hover:overflow-hidden hover:scale-125 transition-all" 
                     target="_blank"   >
-                    <img 
-                        src={Javascript}
-                        alt=" logo do JavaScript" />
+                    <Javascript />
                 </a>    
                 <a 
                     href="https://pt-br.reactjs.org/" 
                     className="hover:overflow-hidden hover:scale-125 transition-all" 
                     target="_blank"   >
-                    <img 
-                        src={React}
-                        alt="logo do React" />
+                    <React />
                 </a>
                </div>
         </div>
