@@ -4,7 +4,7 @@ import { Technologies } from "./Technologies";
 
 import Github from '/src/assets/Github.svg'
 import linkedin from '/src/assets/linkedin.svg'
-import Instagram from '/src/assets/Instagram.svg'
+import Instagram from '/src/assets/instagram.svg'
 import Mail from '/src/assets/Mail.svg'
 
 
