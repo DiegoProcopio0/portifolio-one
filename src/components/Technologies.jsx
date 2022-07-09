@@ -1,7 +1,7 @@
-import css3 from '/src/assets/css3.svg'
-import html from '/src/assets/html.svg'
-import javascript from '/src/assets/javascript.svg'
-import react from '/src/assets/react.svg'
+import Css3 from '/src/assets/css3.svg'
+import Html from '/src/assets/html.svg'
+import Javascript from '/src/assets/javascript.svg'
+import React from '/src/assets/react.svg'
 
 
 import AOS from 'aos';
@@ -25,7 +25,7 @@ export function Technologies() {
                     className="hover:overflow-hidden hover:scale-125 transition-all" 
                     target="_blank">
                     <img 
-                        src={css3}
+                        src={Css3}
                         alt="logo do Css" />
                 </a>
                 <a 
@@ -33,7 +33,7 @@ export function Technologies() {
                     className="hover:overflow-hidden hover:scale-125 transition-all" 
                     target="_blank"   >
                     <img 
-                        src={html}
+                        src={Html}
                         alt="logo do html" />
                 </a>
                 <a 
@@ -41,7 +41,7 @@ export function Technologies() {
                     className="hover:overflow-hidden hover:scale-125 transition-all" 
                     target="_blank"   >
                     <img 
-                        src={javascript}
+                        src={Javascript}
                         alt=" logo do JavaScript" />
                 </a>    
                 <a 
@@ -49,7 +49,7 @@ export function Technologies() {
                     className="hover:overflow-hidden hover:scale-125 transition-all" 
                     target="_blank"   >
                     <img 
-                        src={react}
+                        src={React}
                         alt="logo do React" />
                 </a>
                </div>
