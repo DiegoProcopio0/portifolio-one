@@ -4,8 +4,8 @@ function Css() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="156"
-      height="151"
+      width="106"
+      height="101"
       fill="none"
       viewBox="0 0 156 151"
     >

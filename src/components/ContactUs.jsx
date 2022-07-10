@@ -2,7 +2,7 @@ import whatsapp from '/src/assets/whatsapp.svg'
 
 export function ContactUs() {
     return (
-        <div className="max-w-xs text-center"
+        <div className="text-center"
             id="entre-em-contato"
             data-aos="fade-up"
         >
