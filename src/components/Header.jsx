@@ -15,7 +15,7 @@ export function Header() {
                 </li>
                 <li className="hover:text-green-500 transition-colors text-xs sm:text-base">
                     <a href="#entre-em-contato">
-                        ENTRE EM CANTATO
+                        ENTRE EM CONTATO
                     </a>
                 </li>
                 <li className="hover:text-green-500 transition-colors text-xs sm:text-base  ">
