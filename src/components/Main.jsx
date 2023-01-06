@@ -1,6 +1,5 @@
 import { GithubLogo, LinkedinLogo, EnvelopeSimple  } from "phosphor-react";
 
-
 import { ContactUs } from "./ContactUs";
 import { MyProjects } from "./MyProjects";
 import { Technologies } from "./Technologies";

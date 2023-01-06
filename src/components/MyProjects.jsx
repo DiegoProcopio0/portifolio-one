@@ -10,14 +10,13 @@ export function MyProjects() {
                 #Meus Projetos
             </h2>
             <Project
-                linkProject="https://github.com/DiegoProcopio0/event-platform"
-                linkImage="https://i.ibb.co/FhH97NH/Anota-o-2022-06-28-085301.png"
-                title="Plataforma de Eventos"   
-                aboutProject=" Esse projeto é uma página para plataforma de eventos aonde você pode 
-                se cadastrar para o evento e as aulas são liberadas dia a dia." 
-                technology="React" 
-                technology1="Tailwindcss" 
-                technology2="Graphql" 
+                linkProject="https://github.com/DiegoProcopio0/monty-hall"
+                linkImage="https://i.ibb.co/Qp5Wn7x/img3.png"
+                title="Monty Hall"   
+                aboutProject=" Esse projeto é baseado em um Jogo chamado Monty Hall, feito com NextJS e TypeScript." 
+                technology="NextJS" 
+                technology1="TypeScript" 
+                technology2="CSS Modules" 
             />
             <Project
                 linkProject="https://github.com/DiegoProcopio0/RockFlix"
