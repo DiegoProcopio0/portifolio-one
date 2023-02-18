@@ -19,7 +19,7 @@ export function Main() {
               data-aos="fade-up"
         >
             <header className="text-center sm:text-left font-bold sm:pb-0 pb-6 py-2">
-                <h1 className="text-green-400 mb-4 pb-2  text-2xl">
+                <h1 className="text-white mb-4 pb-2  text-2xl">
                     <TypeWriter 
                         text="Diego Procopio"
                     />

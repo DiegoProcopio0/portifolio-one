@@ -10,7 +10,7 @@ export function Project({linkProject, linkImage, title, aboutProject, technology
                 className=" max-w-80 min-h-[200px] w-auto mx-auto sm:mx-0 bg-auto sm:w-1/2"
                 src={linkImage}
                 alt="Image do Projeto" />
-            <div className=" max-w-80 w-auto bg-blue-700 p-4 mx-auto sm:mx-0 sm:mb-0 sm:w-1/2">
+            <div className=" max-w-80 w-auto bg-blue-700 p-4 mx-auto sm:mx-0 sm:mb-0 sm:w-1/2 hover:bg-slate-800 transition-all ease-in duration-300">
                 <div className="mb-2">     
                     <h3 className="text-blue-400 my-2 text-center sm:text-left">
                         <strong>

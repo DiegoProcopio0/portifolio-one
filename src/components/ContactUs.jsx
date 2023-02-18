@@ -13,7 +13,7 @@ export function ContactUs() {
                 <a 
                     href="https://contate.me/diegodev"
                     target="_blank"
-                    className="flex items-center justify-center gap-3 bg-blue-700 rounded p-4 lg:w-96"
+                    className="flex items-center justify-center gap-3 bg-blue-700 rounded p-4 lg:w-96 hover:bg-slate-800 transition-all ease-in duration-300"
                 >
                     <img src={whatsapp} alt="Logo do Whatsapp" />
                     <span>
