@@ -1,3 +1,10 @@
+import Css from "./technologies/Css"
+import Html from "./technologies/Html"
+import Javascript from "./technologies/Javascript"
+import Typescript from "./technologies/Typescript"
+import Nextjs from "./technologies/Nextjs"
+import Reactjs from "./technologies/Reactjs"
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -15,58 +22,40 @@ export function Technologies() {
                 data-aos="flip-up"
             >
                 <a 
+                    className="hover:overflow-hidden hover:scale-125 ease-in duration-300  transition-all w-16" 
                     href="https://developer.mozilla.org/pt-BR/docs/Web/javascript" 
                     target="_blank"   >
-                    <img 
-                        src="./src/assets/technologies/javascript.svg" 
-                        alt="logo Javascript" 
-                        className="hover:overflow-hidden hover:scale-125 ease-in duration-300  transition-all w-16" 
-                    />
+                    <Javascript />
                 </a>
                 <a 
-                    href="https://www.typescriptlang.org/" 
+                    className="hover:overflow-hidden hover:scale-125 ease-in duration-300  transition-all w-16" 
+                    href="https://developer.mozilla.org/pt-BR/docs/Web/javascript" 
                     target="_blank"   >
-                    <img 
-                        src="./src/assets/technologies/typescript.svg" 
-                        alt="logo typescript" 
-                        className="hover:overflow-hidden hover:scale-125 ease-in duration-300  transition-all w-16" 
-                    />
+                    <Typescript />
                 </a>
                 <a 
-                    href="https://pt-br.reactjs.org/" 
+                    className="hover:overflow-hidden hover:scale-125 ease-in duration-300  transition-all w-16" 
+                    href="https://developer.mozilla.org/pt-BR/docs/Web/javascript" 
                     target="_blank"   >
-                    <img 
-                        src="./src/assets/technologies/react.svg" 
-                        alt="logo react" 
-                        className="hover:overflow-hidden hover:scale-125 ease-in duration-300  transition-all w-16" 
-                    />
+                    <Reactjs />
                 </a>
                 <a 
-                    href="https://nextjs.org/" 
+                    className="hover:overflow-hidden hover:scale-125 ease-in duration-300  transition-all w-16" 
+                    href="https://developer.mozilla.org/pt-BR/docs/Web/javascript" 
                     target="_blank"   >
-                    <img 
-                        src="./src/assets/technologies/nextjs.svg" 
-                        alt="logo nextjs" 
-                        className="hover:overflow-hidden hover:scale-125 ease-in duration-300  transition-all w-16" 
-                    />
+                    <Nextjs />
                 </a>
                 <a 
-                    href="https://developer.mozilla.org/pt-BR/docs/Web/html" 
+                    className="hover:overflow-hidden hover:scale-125 ease-in duration-300  transition-all w-16" 
+                    href="https://developer.mozilla.org/pt-BR/docs/Web/javascript" 
                     target="_blank"   >
-                    <img 
-                        src="./src/assets/technologies/html5.svg" 
-                        alt="logo html5" 
-                        className="hover:overflow-hidden hover:scale-125 ease-in duration-300  transition-all w-16" 
-                    />
+                    <Html />
                 </a>
                 <a 
+                    className="hover:overflow-hidden hover:scale-125 ease-in duration-300 transition-all w-16" 
                     href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" 
-                    target="_blank"   >
-                    <img 
-                        src="./src/assets/technologies/css3.svg" 
-                        alt="logo css3" 
-                        className="hover:overflow-hidden hover:scale-125 ease-in duration-300  transition-all w-16" 
-                    />
+                    target="_blank">
+                    <Css />
                 </a>
                
                </div>
