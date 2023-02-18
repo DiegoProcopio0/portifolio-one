@@ -8,6 +8,7 @@ import Cv from '/src/assets/cv/cv-diegoprocopio.pdf'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { TypeWriter } from "./TypeWriter";
 
 AOS.init({ duration: 1200 });
 
@@ -19,7 +20,9 @@ export function Main() {
         >
             <header className="text-center sm:text-left font-bold sm:pb-0 pb-6 py-2">
                 <h1 className="text-green-400 mb-4 pb-2  text-2xl">
-                    Diego Procopio
+                    <TypeWriter 
+                        text="Diego Procopio"
+                    />
                 </h1>
                 <a 
                     href={Cv}
