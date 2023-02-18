@@ -7,7 +7,7 @@ export function Project({linkProject, linkImage, title, aboutProject, technology
         >
         <div className=" p-4 flex flex-col justify-center rounded mb-3 sm:flex-row ">
             <img 
-                className=" max-w-80 w-auto mx-auto sm:mx-0 bg-auto sm:w-1/2"
+                className=" max-w-80 min-h-[200px] w-auto mx-auto sm:mx-0 bg-auto sm:w-1/2"
                 src={linkImage}
                 alt="Image do Projeto" />
             <div className=" max-w-80 w-auto bg-blue-700 p-4 mx-auto sm:mx-0 sm:mb-0 sm:w-1/2">

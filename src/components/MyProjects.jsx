@@ -10,6 +10,15 @@ export function MyProjects() {
                 #Meus Projetos
             </h2>
             <Project
+                linkProject="https://github.com/DiegoProcopio0/quiz"
+                linkImage="https://i.ibb.co/LQcTXXR/img4.png"
+                title="Quiz"   
+                aboutProject=" Esse projeto é um quiz de perguntas e respostas, feito com NextJS e TypeScript." 
+                technology="NextJS" 
+                technology1="TypeScript" 
+                technology2="CSS Modules" 
+            />
+            <Project
                 linkProject="https://github.com/DiegoProcopio0/monty-hall"
                 linkImage="https://i.ibb.co/Qp5Wn7x/img3.png"
                 title="Monty Hall"   

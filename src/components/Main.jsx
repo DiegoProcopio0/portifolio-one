@@ -4,6 +4,7 @@ import { ContactUs } from "./ContactUs";
 import { MyProjects } from "./MyProjects";
 import { Technologies } from "./Technologies";
 
+import Cv from '/src/assets/cv/cv-diegoprocopio.pdf'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -13,18 +14,24 @@ AOS.init({ duration: 1200 });
 export function Main() {
 
     return (
-        <main className="h-full max-w-4xl  my-5 mx-auto sm:px-9">
-            <header>
-                <h1 className="text-green-400 mb-4 text-center text-2xl font-bold  sm:text-left"
-                    data-aos="fade-up"
-                >
+        <main className="h-full max-w-4xl my-5 mx-auto sm:px-9" 
+              data-aos="fade-up"
+        >
+            <header className="text-center sm:text-left font-bold sm:pb-0 pb-6 py-2">
+                <h1 className="text-green-400 mb-4 pb-2  text-2xl">
                     Diego Procopio
                 </h1>
+                <a 
+                    href={Cv}
+                    className="ease-in duration-300 p-3 bg-green-500 rounded hover:text-green-400 hover:bg-white"
+                >
+                    DOWNLOAD DO CV
+                </a>
             </header>
             <div className="flex justify-center flex-col items-center sm:flex-row sm:justify-between"
             >
                 <div className="w-80 bg-gradient-to-r from-blue-700 to-blue-900 h-auto p-4 rounded sm:w-96"
-                    data-aos="fade-right"
+                     data-aos="fade-right"
                 >
                     <span className="text-blue-400">
                         about
