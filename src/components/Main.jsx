@@ -9,6 +9,7 @@ import Cv from '/src/assets/cv/cv-diegoprocopio.pdf'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { TypeWriter } from "./TypeWriter";
+import { Form } from "./Form";
 
 AOS.init({ duration: 1200 });
 
@@ -94,6 +95,8 @@ export function Main() {
             <Technologies />
 
             <MyProjects />
+
+            <Form />    
 
             <ContactUs />
         </main>

@@ -3,7 +3,7 @@ import { Project } from "./Project";
 export function MyProjects() {
     return (
         <div
-            data-aos="flip-right"
+            data-aos="fade-up"
             id="meus-projetos"
         >
             <h2 className="text-blue-400 text-center text-2xl font-bold sm:text-left mt-7">

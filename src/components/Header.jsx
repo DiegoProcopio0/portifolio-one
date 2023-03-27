@@ -1,6 +1,6 @@
 export function Header() {
     return (
-        <header className="w-full text-center bg-blue-700">
+        <header className="w-full text-center bg-gray-900 border-b-2 border-b-gray-700">
             <h2 className="sr-only">
                 Header
             </h2>

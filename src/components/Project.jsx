@@ -4,6 +4,7 @@ export function Project({linkProject, linkImage, title, aboutProject, technology
         <a 
             target="_blank"
             href={linkProject}
+            data-aos="fade-up"
         >
         <div className=" p-4 flex flex-col justify-center rounded mb-3 sm:flex-row ">
             <img 

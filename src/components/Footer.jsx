@@ -3,7 +3,7 @@ import { LinkedinLogo, At } from "phosphor-react";
 
 export function Footer() {
     return (
-       <footer className="flex justify-between items-center p-4 w-full bg-blue-700 py-5 bottom-0 inherit">
+       <footer className="flex justify-between items-center p-4 w-full bg-gray-900 border-t-2 border-t-gray-700 py-5 bottom-0 inherit">
             <h2 className="sr-only">
                 Footer
             </h2>
