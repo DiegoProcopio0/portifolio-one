@@ -1,5 +1,13 @@
 import { LinkedinLogo, At } from "phosphor-react";
 
+const scrollToTop = () =>{
+    window.scrollTo({
+      top: 0, 
+      behavior: 'smooth'
+      /* you can also use 'auto' behaviour
+         in place of 'smooth' */
+    });
+  };
 
 export function Footer() {
     return (
@@ -8,14 +16,14 @@ export function Footer() {
                 Footer
             </h2>
             <div className="flex flex-col gap-2">
-                <span>
-                    Diego Procopio
-                </span>
-                <span>
-                    &copy; Todos os direitos reservados
-                </span>
+                <button 
+                    className="text-green-400 hover:text-green-200 "
+                    onClick={scrollToTop}
+                >
+                    VOLTAR AO TOPO
+                </button>
             </div>
-            <div className="flex flex-col gap-2 sm:flex-row">
+            <div className="flex gap-2 sm:flex-row">
                 <a 
                     href="https://www.linkedin.com/in/diego-proc%C3%B3pio-32a6b0206/"
                 >

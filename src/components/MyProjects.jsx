@@ -5,8 +5,9 @@ export function MyProjects() {
         <div
             data-aos="fade-up"
             id="meus-projetos"
-        >
-            <h2 className="text-blue-400 text-center text-2xl font-bold sm:text-left mt-7">
+            className="mt-10"
+            >
+            <h2 className="text-blue-400 text-center text-2xl font-bold sm:text-left pt-7">
                 #Meus Projetos
             </h2>
             <Project
