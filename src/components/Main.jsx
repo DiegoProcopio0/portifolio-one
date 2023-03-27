@@ -5,6 +5,7 @@ import { MyProjects } from "./MyProjects";
 import { Technologies } from "./Technologies";
 
 import Cv from '/src/assets/cv/cv-diegoprocopio.pdf'
+import Image from "../assets/hand-coding.png"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -19,18 +20,25 @@ export function Main() {
         <main className="h-full max-w-4xl my-5 mx-auto sm:px-9" 
               data-aos="fade-up"
         >
-            <header className="text-center sm:text-left font-bold sm:pb-0 pb-6 py-2">
-                <h1 className="text-white mb-4 pb-2  text-2xl">
+            <header className="text-center sm:text-left font-bold sm:pb-0 pb-6 py-2 sm:flex justify-between">
+                <div>
+                    <h1 className="text-white mb-4 pb-2  text-2xl">
+                        <TypeWriter 
+                            text="Diego Procopio"
+                        />
+                    </h1>
+                    <a 
+                        href={Cv}
+                        className="ease-in duration-300 p-3 bg-green-500 rounded hover:text-green-400 hover:bg-white"
+                        >
+                        DOWNLOAD DO CV
+                    </a>
+                </div>
+                <div className="text-center mt-8 px-4 max-w-sm">
                     <TypeWriter 
-                        text="Diego Procopio"
+                        text="Olá, Sou Diego Procopio front-end dev com foco em desenvolvimento web."
                     />
-                </h1>
-                <a 
-                    href={Cv}
-                    className="ease-in duration-300 p-3 bg-green-500 rounded hover:text-green-400 hover:bg-white"
-                >
-                    DOWNLOAD DO CV
-                </a>
+                </div>
             </header>
             <div className="flex justify-center flex-col items-center sm:flex-row sm:justify-between"
             >
@@ -54,12 +62,12 @@ export function Main() {
                             Dev. Front-end,
                         </span>
                     </div>
-                    <span>
+                    <span>  
                         {"}"}
                     </span>
                 </div>
                 <img 
-                    src="https://i.ibb.co/f8cFQrF/hand-coding.png" 
+                    src={Image} 
                     className="w-48 my-5 sm:w-40" 
                     alt="hand-coding" 
                     data-aos="fade-left"
