@@ -5,7 +5,7 @@ export function  Form() {
   const { register, handleSubmit, formState: {errors} } = useForm()
 
   const onSubmit = (data) => {
-    alert(JSON.stringify(data));
+    console.log(JSON.stringify(data));
   }
 
   return (

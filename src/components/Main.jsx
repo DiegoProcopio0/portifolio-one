@@ -34,7 +34,7 @@ export function Main() {
                         DOWNLOAD DO CV
                     </a>
                 </div>
-                <div className="text-center mt-8 px-4 max-w-sm">
+                <div className="mx-auto sm:mx-0 text-center mt-8 px-4 max-w-sm">
                     <TypeWriter 
                         text="Olá, Sou Diego Procopio front-end dev com foco em desenvolvimento web."
                     />
