@@ -5,8 +5,20 @@ export function  Form() {
   const { register, handleSubmit, formState: {errors} } = useForm()
 
   const onSubmit = (data) => {
-    console.log(JSON.stringify(data));
-  }
+    fetch('http://localhost:3000/enviar-dados', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      })
+      .then(response => response.text())
+      .then(data => {
+        console.log(data);
+        // Faça algo com a resposta do servidor, se necessário
+      })
+      .catch(error => console.error(error));
+    }
 
   return (
     <section className={`flex flex-col `}

@@ -32,9 +32,9 @@ export function Main() {
                         className="ease-in duration-300 p-3 bg-green-500 rounded hover:text-green-400 hover:bg-white"
                         >
                         DOWNLOAD DO CV
-                    </a>
+                    </a>    
                 </div>
-                <div className="mx-auto sm:mx-0 text-center mt-8 px-4 max-w-sm">
+                <div className="mx-autosb sm:mx-0 text-center mt-8 px-4 max-w-sm">
                     <TypeWriter 
                         text="Olá, Sou Diego Procopio front-end dev com foco em desenvolvimento web."
                     />
@@ -88,12 +88,12 @@ export function Main() {
                         <GithubLogo size={50} color="#1ED760" />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/diego-proc%C3%B3pio-32a6b0206/"
+                        href="https://www.linkedin.com/in/diego-procopio/"
                         className="hover:overflow-hidden hover:scale-125 transition-all"
                         target="_blank"   >
                         <LinkedinLogo size={52} color="#1ED760" />
                     </a>
-                    <a href="mailto:digprocopio98@gmail.com"
+                    <a href="mailto:diegprocopio98@gmail.com"
                         className="hover:overflow-hidden hover:scale-125 transition-all"
                         target="_blank"   >
                         <EnvelopeSimple size={60} color="#1ED760" />

@@ -25,12 +25,12 @@ export function Footer() {
             </div>
             <div className="flex gap-2 sm:flex-row">
                 <a 
-                    href="https://www.linkedin.com/in/diego-proc%C3%B3pio-32a6b0206/"
+                    href="https://www.linkedin.com/in/diego-procopio/"
                 >
                     <LinkedinLogo size={40} color="#ffffff" />
                 </a>
                 <a 
-                    href="mailto:digprocopio98@gmail.com"
+                    href="mailto:diegprocopio98@gmail.com"
                 >
                     <At size={40} color="#ffffff" />
                 </a>
